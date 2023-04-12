@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SideBar</title>
+    <style>
+        .sidebar {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.sidebar-logo img {
+  max-width: 100%;
+}
+
+.sidebar-navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-navigation li {
+  margin-bottom: 10px;
+}
+
+.sidebar-navigation a {
+  color: #555;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-navigation a:hover {
+  background-color: #eee;
+}
+
+.sidebar-social a {
+  color: #555;
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sidebar-social a:hover {
+  color: #222;
+}
+
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-logo">
+          <img src="logo.png" alt="Company Logo">
+        </div>
+        <nav class="sidebar-navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="sidebar-social">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>      
+</body>
+</html>

@@ -1,0 +1,23 @@
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+}
+nav ul li{
+    margin-left: 30px;
+}
+nav ul li:first-child{
+    margin-left: 0;
+}

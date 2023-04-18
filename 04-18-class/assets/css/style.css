@@ -1,0 +1,11 @@
+.submit{
+    margin-top: 5%;
+}
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+textarea{
+    resize: none;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="">
+        <h1>Simple Form Design</h1>
+        <section class="first-row">
+            <section class="name">
+                <label for="fname">First name</label><br>
+                <input type="text" id="fname" name="fname" required>
+            </section>
+            
+            <section class="surname">
+                <label for="lname">Last name</label><br>
+                <input type="text" id="lname" name="lname" required>
+            </section>
+            
+            <section class="phone">
+                <label for="phone">Mobile/Land line</label><br>
+                <input type="text" id="phone" name="phone" required>
+            </section>
+        </section>
+
+        <section class="second-row">
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required>
+        </section>
+
+        <section class="third-row">
+            <label for="address">Address Line</label><br>
+            <input type="text" id="address" name="address" required>
+        </section>
+        
+        <section class="fourth-row">
+            <section class="street"> 
+                <label for="street">Street</label><br>
+                <input type="text" id="street" name="street" required>
+            </section>
+            
+            <section class="postalcode">
+                <label for="postalcode">Postal Code</label><br>
+                <input type="text" id="postalcode" name="postalcode" required>
+            </section>
+
+            <section class="city">
+                <label for="city">City</label><br>
+                <input type="text" id="city" name="city" required>
+            </section>
+        </section>
+
+        <section class="fifth-row">
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="gender" value="male" id="gender"  required>Male
+            <input type="radio" name="gender" value="female" id="gender" required>Female
+        </section>
+
+        <section class="sixth-row">
+            <label for="country">Country</label><br>
+            <select id="country" name="country" required>
+              <option value="">Please Select</option>
+              <option value="usa">United States</option>
+              <option value="canada">Canada</option>
+              <option value="uk">United Kingdom</option>
+              <option value="australia">Australia</option>
+              <option value="japan">Japan</option>
+            </select>
+        </section>
+
+        <section class="seventh-row">
+            <section class="drink">
+                <label for="drink">I like</label><br>
+                <input type="radio" name="drink" value="cola" id="drink" required>Cola
+                <input type="radio" name="drink" value="soda" id="drink" required>Soda
+            </section>
+    
+            <section class="language">
+                <label for="language">I love</label><br>
+                <input type="radio" id="language" name="language" value="css" id="language" required>CSS
+                <input type="radio" id="language" name="language" value="scss" id="language" required>SCSS
+            </section>
+        </section>
+
+        <section class="eighth-row">
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" cols="70" rows="8" required></textarea>
+        </section>
+            
+        <section class="ninth-row">
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I accept terms and conditions</label>
+        </section>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

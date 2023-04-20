@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    background-color:white;
+    width: 830px;
+    height: 480px;
+    display: flex;
+    border-style: none;
+    transition: 0.8s;
+    transform: translateY(50px);
+    &:hover{
+        box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    }
+
+    
+    .left{
+        padding: 40px;
+    }
+
+    .right{
+        width: 550px;
+        height: 480px;
+    }
+
+    h1{
+        font-weight: 1000;
+    }
+
+    button{
+        padding:5px 15px;
+        width: 150px;
+        height:40px;
+        border-style: none;
+        background-color: aquamarine;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 10px;
+        color: white;
+        transition: 0.8s;    
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    }
+}

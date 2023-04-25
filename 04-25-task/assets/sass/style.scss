@@ -1,0 +1,19 @@
+@use "/assets/sass/utils/variables" as variables;
+@import "/assets/sass/utils/mixins";
+@import "./components/header";
+@import "./components/main";
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+section {
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: 1140px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,76 @@
+@use "/assets/sass/utils/variables" as variables;
+@import "/assets/sass/utils/mixins";
+
+
+#main {
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    padding-bottom: 10%;
+    column-gap: 90px;
+
+    .users {
+        height: fit-content;
+        width: 400px;
+        align-items: center;
+
+        .user {
+            display: flex;
+            margin-bottom: 5%;
+            padding: 7%;
+            align-items: center;
+            border-radius: 10px;
+            transition: box-shadow 0.4s;
+
+            &:hover {
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &-info {
+
+                &-name {
+                    @include setFont(600,15px)
+                    // font-weight: 600;
+                    // font-size: 15px;
+                }
+
+                &-position {
+                    font-size: 12px;
+                    color: variables.$secondaryTextColor;
+                }
+            }
+
+            &-img {
+                @include setWidthHeight(60px,60px);
+                // width: 60px;
+                // height: 60px;
+                border-radius: 50%;
+                margin-right: 40px;
+            }
+        }
+    }
+
+    .text {
+        width: 630px;
+
+        &-header {
+            @include setFont(700,20px)
+            // font-weight: 700;
+            // font-size: 20px;
+        }
+
+        &-paragraph {
+            line-height: 28px;
+        }
+
+        &-img {
+            @include setWidthHeight(80px,50px)
+            // width: 80px;
+            // height: 50px;
+        }
+    }
+}

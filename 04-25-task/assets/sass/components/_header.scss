@@ -1,0 +1,9 @@
+@use "/assets/sass/utils/variables" as variables;
+@import "/assets/sass/utils/mixins";
+
+#header {
+    font-weight: 900;
+    font-size: 280%;
+    padding: 8%;
+    color: variables.$primaryTextColor;
+}

@@ -1,0 +1,38 @@
+body {
+  font-family: "Bellota Text", cursive !important;
+  background-color: whitesmoke !important;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+.navbar .nav-link {
+  font-size: 1.3rem !important;
+  font-weight: 700 !important;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px !important;
+  background-color: whitesmoke !important;
+  border-radius: 30px !important;
+  border-style: none !important;
+}
+
+.headerone .strong {
+  font-size: 4rem !important;
+}
+
+.text-center .strong {
+  font-size: 6rem !important;
+}
+
+strong {
+  color: #36187d !important;
+  font-weight: bold !important;
+}
+
+.navbar-brand {
+  font-weight: 700 !important;
+  color: #347af4 !important;
+  font-size: 2.7rem !important;
+}/*# sourceMappingURL=style.css.map */

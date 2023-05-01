@@ -1,0 +1,119 @@
+.contacts {
+  width: 15rem;
+}
+.contacts .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.contacts .contact i {
+  color: #4100a3;
+  font-size: 1.5rem;
+}
+.contacts .contact .header {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+.contacts .contact .info {
+  color: rgb(175, 175, 175);
+  font-size: 1rem;
+}
+
+.form {
+  margin-top: 2rem;
+  width: 30rem;
+}
+.form .header {
+  color: #4100a3;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.form .paragraph {
+  font-size: 15px;
+  font-weight: 600;
+}
+.form textarea,
+.form input {
+  width: 448px;
+  height: 2rem;
+  background-color: rgb(212, 212, 212);
+  border-style: none;
+  border-radius: 2px;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.form textarea {
+  height: 5rem;
+  resize: none;
+}
+.form textarea::-moz-placeholder {
+  font-family: "Nunito Sans", sans-serif;
+}
+.form textarea::placeholder {
+  font-family: "Nunito Sans", sans-serif;
+}
+.form input:last-child {
+  background-color: #4100a3;
+  color: white;
+  border-radius: 8px;
+  width: 20%;
+}
+
+.line {
+  width: 3px;
+  background-color: rgb(212, 212, 212);
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+}
+
+.feedback {
+  width: 70rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  margin: auto;
+  margin-top: 3rem;
+  padding-bottom: 2rem;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .feedback {
+    width: 40rem;
+  }
+  .line {
+    display: none !important;
+  }
+  .form {
+    width: 15rem !important;
+  }
+  textarea,
+  input {
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .feedback {
+    width: 25rem !important;
+  }
+  .line {
+    display: none !important;
+  }
+  .form {
+    width: 15rem !important;
+  }
+  textarea,
+  input {
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+  }
+}/*# sourceMappingURL=style.css.map */

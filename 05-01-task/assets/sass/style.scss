@@ -1,0 +1,60 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./components/contacts";
+@import "./components/form";
+@import "./components/line";
+
+body {
+    font-family: $primaryFont;
+    margin: 0;
+}
+
+.feedback {
+    width: 70rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: auto;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+    border-radius: 8px;
+}
+
+@media screen and (max-width:768px) {
+    .feedback {
+        width: 40rem;
+    }
+
+    .line {
+        display: none !important;
+    }
+
+    .form {
+        width: 15rem !important;
+    }
+
+    textarea,
+    input {
+        width: fit-content !important;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .feedback {
+        width: 25rem !important;
+    }
+
+    .line {
+        display: none !important;
+    }
+
+    .form {
+        width: 15rem !important;
+    }
+
+    textarea,
+    input {
+        width: fit-content !important;
+    }
+}

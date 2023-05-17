@@ -10,7 +10,7 @@ function getData() {
 function displayData(data) {
     const userList = document.getElementById("userList");
 
-    // Create variables for users and their tasks
+    // User'lar üçün variable yaradır
     const users = {};
     data.forEach(item => {
         if (!users[item.userId]) {
@@ -19,7 +19,7 @@ function displayData(data) {
         users[item.userId].push(item);
     });
 
-    // Display users and their tasks
+    // User'ları və task'larını display edir
     for (const userId in users) {
         const tasks = users[userId];
         const userItem = document.createElement("li");

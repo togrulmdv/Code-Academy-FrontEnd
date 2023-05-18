@@ -1,0 +1,111 @@
+@import "./variables";
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.navbar {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .logo {
+        font-size: 25px;
+        font-weight: 500;
+        color: $mainBlueColor;
+    }
+
+    .directory {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+
+        a {
+            text-decoration: none;
+            color: gray;
+        }
+    }
+
+    .registory {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        a {
+            text-decoration: none;
+        }
+
+        .login {
+            color: $mainBlueColor;
+        }
+
+        .signup {
+            color: white;
+            background-color: $mainBlueColor;
+            padding: 10px;
+            border-radius: 50px;
+            width: 100px;
+            text-align: center;
+        }
+    }
+}
+
+.middle {
+    display: flex;
+    margin-top: 5%;
+
+    .header {
+        position: relative;
+
+        .text {
+            font-size: 80px;
+            font-weight: 700;
+            width: 510px;
+        }
+
+        .free {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            position: absolute;
+            bottom: 15px;
+            right: 0px;
+
+            .free-text {
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+
+                .tryforfree {
+                    color: $mainBlueColor;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+                .graypart {
+                    color: gray;
+                    font-size: 15px;
+                }
+            }
+
+            .arrow {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}

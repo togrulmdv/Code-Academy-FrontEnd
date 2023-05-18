@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.section {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.navbar {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo {
+  font-size: 25px;
+  font-weight: 500;
+  color: #005eff;
+}
+.navbar .directory {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.navbar .directory a {
+  text-decoration: none;
+  color: gray;
+}
+.navbar .registory {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar .registory a {
+  text-decoration: none;
+}
+.navbar .registory .login {
+  color: #005eff;
+}
+.navbar .registory .signup {
+  color: white;
+  background-color: #005eff;
+  padding: 10px;
+  border-radius: 50px;
+  width: 100px;
+  text-align: center;
+}
+
+.middle {
+  display: flex;
+  margin-top: 5%;
+}
+.middle .header {
+  position: relative;
+}
+.middle .header .text {
+  font-size: 80px;
+  font-weight: 700;
+  width: 510px;
+}
+.middle .header .free {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 15px;
+  right: 0px;
+}
+.middle .header .free .free-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.middle .header .free .free-text .tryforfree {
+  color: #005eff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.middle .header .free .free-text .graypart {
+  color: gray;
+  font-size: 15px;
+}
+.middle .header .free .arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}/*# sourceMappingURL=style.css.map */

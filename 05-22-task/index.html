@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/e44ed7d932.js" crossorigin="anonymous" defer></script>
+
     <script src="./assets/script/script.js" defer></script>
     <title>Document</title>
 </head>
@@ -15,15 +17,19 @@
         <div class="profile-image">
             <img src="" alt="Profile Image" id="profile-img">
         </div>
+
         <div class="profile-info">
             <h2 id="name"></h2>
-            <p id="username"></p>
-            <p id="location"></p>
-            <p id="followers"></p>
-            <p id="follows"></p>
-            <div class="profile-links">
-                <a href="" id="github-profile" target="_blank">Go to Profile</a>
+            <div id="username"></div>
+
+            <div class="follow-info">
+                <h2><a><span id="followers"></span><small>Followers</small></a></h2>
+                <h2><a><span id="follows"></span><small>Following</small></a></h2>
             </div>
+
+            <a href="" class="follow-btn" id="github-profile" target="_blank">Go to Profile</a>
+
+            <div id="location"></div>
         </div>
     </div>
 </body>

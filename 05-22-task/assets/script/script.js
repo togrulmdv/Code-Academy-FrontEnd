@@ -1,4 +1,6 @@
-fetch('https://api.github.com/users/togrulmdv')
+let username='togrulmdv';
+
+fetch(`https://api.github.com/users/${username}`)
     .then(response => response.json())
     .then(data => {
         document.getElementById('profile-img').src = data.avatar_url;

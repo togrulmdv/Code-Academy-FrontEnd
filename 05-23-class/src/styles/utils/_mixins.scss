@@ -1,0 +1,9 @@
+@mixin setFont($fontweight: none, $fontsize: none) {
+    font-weight: $fontweight;
+    font-size: $fontsize;
+}
+
+@mixin setWidthHeight($width: none, $height: none) {
+    width: $width;
+    height: $height;
+}

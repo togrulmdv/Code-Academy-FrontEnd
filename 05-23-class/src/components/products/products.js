@@ -6,25 +6,34 @@ export function createProductBlock(title, imageUrl, sales, revenue, views, conve
     image.src = imageUrl;
     block.appendChild(image);
 
+    const productInfo = document.createElement('div');
+    productInfo.classList.add('product-info');
+    block.appendChild(productInfo);
+    
     const heading = document.createElement('h2');
     heading.textContent = title;
-    block.appendChild(heading);
+    productInfo.appendChild(heading);
+    
+    const productProps = document.createElement('div');
+    productProps.classList.add('product-props');
 
     const salesParagraph = document.createElement('p');
-    salesParagraph.textContent = 'Sales: ' + sales;
-    block.appendChild(salesParagraph);
+    salesParagraph.innerHTML = 'Sales ' + sales;
+    productProps.appendChild(salesParagraph);
 
     const revenueParagraph = document.createElement('p');
-    revenueParagraph.textContent = 'Revenue: ' + revenue;
-    block.appendChild(revenueParagraph);
+    revenueParagraph.textContent = 'Revenue ' + revenue;
+    productProps.appendChild(revenueParagraph);
 
     const viewsParagraph = document.createElement('p');
-    viewsParagraph.textContent = 'Views: ' + views;
-    block.appendChild(viewsParagraph);
+    viewsParagraph.textContent = 'Views ' + views;
+    productProps.appendChild(viewsParagraph);
 
     const conversionParagraph = document.createElement('p');
-    conversionParagraph.textContent = 'Conversion: ' + conversion;
-    block.appendChild(conversionParagraph);
+    conversionParagraph.textContent = 'Conversion ' + conversion;
+    productProps.appendChild(conversionParagraph);
+
+    productInfo.appendChild(productProps);
 
     return block;
 }

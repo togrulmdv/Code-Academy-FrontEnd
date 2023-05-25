@@ -13,6 +13,11 @@
   float: left;
 }
 
+.index {
+  z-index: 99999;
+  position: fixed;
+}
+
 .sidebar {
   position: fixed;
   margin: 8px;
@@ -40,11 +45,6 @@
 
 .open {
   display: block;
-}
-
-.index {
-  z-index: 99999;
-  position: fixed;
 }
 
 .nav {

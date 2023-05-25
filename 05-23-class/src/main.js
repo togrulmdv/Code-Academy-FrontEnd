@@ -2,6 +2,7 @@
 import { createStatsBlock } from "./components/stats/stats.js";
 import { createProductBlock } from "./components/products/products.js";
 
+
 //=====================================================================================================
 
 // Create section element with class "sidebar section"

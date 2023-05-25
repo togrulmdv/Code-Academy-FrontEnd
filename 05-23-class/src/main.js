@@ -47,7 +47,7 @@ section.appendChild(ul);
 const logo = document.createElement("a");
 logo.className = "logo";
 logo.href = "#";
-logo.textContent = "Logo";
+logo.textContent = "T";
 
 logo.addEventListener('click', function() {
   // Toggle the "open" class on the sidebar section to show/hide it

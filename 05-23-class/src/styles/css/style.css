@@ -1,8 +1,96 @@
+.logo {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: 700;
+  display: block;
+  background-color: white;
+  padding: 5px;
+  width: 80px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  float: left;
+}
+
+.sidebar {
+  position: fixed;
+  margin: 8px;
+  width: 60px;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 100;
+  background-color: #202020;
+  overflow: hidden;
+  transition: width 0.3s ease;
+  cursor: pointer;
+  box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  display: none;
+}
+.sidebar:hover {
+  width: 220px;
+}
+@media screen and (min-width: 600px) {
+  .sidebar {
+    width: 65px;
+  }
+}
+
+.open {
+  display: block;
+}
+
+.index {
+  z-index: 99999;
+}
+
+.nav {
+  list-style-type: none;
+  color: white;
+}
+.nav:first-child {
+  padding-top: 1.5rem;
+}
+.nav .nav-item {
+  padding-bottom: 0.04rem;
+}
+.nav .nav-item a {
+  position: relative;
+  display: block;
+  top: -33px;
+  transition: all 0.3s ease;
+  margin-left: 28px;
+  text-decoration: none;
+  color: #777;
+  font-weight: 100;
+  font-size: 13px;
+}
+.nav .nav-item i {
+  font-size: 15px;
+  width: 26px;
+  height: 26px;
+  position: relative;
+  left: -25px;
+  cursor: pointer;
+  color: #777;
+}
+@media screen and (min-width: 600px) {
+  .nav .nav-item i {
+    width: 32px;
+    height: 32px;
+    left: -15px;
+  }
+}
+
 .stats-section {
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  position: relative;
+  right: 0;
 }
 .stats-section .stats-block {
   display: flex;
@@ -85,6 +173,5 @@ body {
 #root {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 20px;
 }/*# sourceMappingURL=style.css.map */

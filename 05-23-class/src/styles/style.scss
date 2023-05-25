@@ -1,5 +1,7 @@
 @import "./utils/variables";
 @import "./utils/mixins";
+@import"../components/logo/logo";
+@import"../components/sidebar/sidebar";
 @import "../components/stats/stats";
 @import "../components/products/products";
 
@@ -13,6 +15,5 @@ body {
 #root {
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 20px;
 }

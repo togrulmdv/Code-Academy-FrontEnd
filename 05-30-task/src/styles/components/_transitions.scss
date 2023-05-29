@@ -1,0 +1,17 @@
+.weather-box,
+.weather-details {
+    transform: scale(0);
+    opacity: 0;
+}
+
+.fadeIn {
+    animation: fadeIn 0.5s forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

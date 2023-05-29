@@ -1,0 +1,36 @@
+.weather-box {
+    text-align: center;
+
+    .city-name{
+        color:$secondaryColor;
+        margin-top: 20px;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    img {
+        width: 60%;
+    }
+
+    .temperature {
+        position: relative;
+        color: $secondaryColor;
+        font-size: 4rem;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-left: -16px;
+
+        span {
+            position: absolute;
+            margin-left: 4px;
+            font-size: 1.5rem;
+        }
+    }
+
+    .description {
+        color: $secondaryColor;
+        font-size: 22px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+}

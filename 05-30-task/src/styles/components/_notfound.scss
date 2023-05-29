@@ -1,0 +1,19 @@
+.not-found {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    transform: scale(0);
+    opacity: 0;
+    display: none;
+
+    img {
+        width: 70%;
+    }
+
+    p {
+        color: $secondaryColor;
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 12px;
+    }
+}

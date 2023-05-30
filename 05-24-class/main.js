@@ -22,7 +22,7 @@ function getDifference(a, b)
     return result;
 }
 
-console.log(getDifference("abcd", "abcde"));
+console.log(getDifference("aedfg", "adfg"));
 
 
 function makeBrecket(str){

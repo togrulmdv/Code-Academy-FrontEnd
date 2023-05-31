@@ -1,4 +1,9 @@
 function updateCountdown(minutes) {
+    if(minutes<0){
+        alert('Invalid input');
+        return
+    }
+    
     var totalSeconds = minutes * 60;
 
     var countdownInterval = setInterval(() => {
@@ -20,6 +25,6 @@ function updateCountdown(minutes) {
     }, 1000);
 }
 
-updateCountdown(10);
+updateCountdown(-10);
 
 

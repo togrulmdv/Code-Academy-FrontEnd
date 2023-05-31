@@ -1,9 +1,9 @@
 function updateCountdown(minutes) {
-    if(minutes<0){
+    if (minutes < 0 || typeof (minutes) === "string") {
         alert('Invalid input');
         return
     }
-    
+
     var totalSeconds = minutes * 60;
 
     var countdownInterval = setInterval(() => {

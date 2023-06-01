@@ -1,0 +1,33 @@
+@import "./utils/variables";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+}
+
+.faq {
+    max-width: 530px;
+    width: 100%;
+    background: #fff;
+    margin: 0 15px;
+    padding: 25px 60px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    @import "./components/header";
+
+    @import "./components/paragraph";
+
+    @import "./components/accordion";
+}

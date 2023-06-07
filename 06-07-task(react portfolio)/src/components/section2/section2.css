@@ -1,0 +1,70 @@
+body .section2 {
+    position: static;
+    overflow: visible;
+    max-width: 100%;
+    margin-right: 30px;
+    margin-bottom: 200px;
+    margin-left: 30px;
+    margin-top: 100px;
+    display: flex;
+}
+
+body .section2 .container {
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    grid-column-gap: 50px;
+}
+
+body .section2 .container .right-part .skillset {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body .section2 .container .right-part .skillset .skillname {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid #ced1df;
+    border-radius: 8px;
+    background-color: #eeeff1;
+    background-image: none;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    opacity: 1;
+    color: #000;
+    font-size: 16px;
+    line-height: 39px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+body .section2 .container .left-part {
+    padding-right: 60px;
+}
+
+body .section2 .container .left-part h1 {
+    margin: 20px 0 15px;
+    font-size: 44px;
+    line-height: 62px;
+    font-weight: 500;
+}
+
+body .section2 .container .left-part p {
+    position: relative;
+    margin-bottom: 50px;
+    padding-bottom: 0;
+    opacity: 1;
+    color: #000;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 300;
+}

@@ -1,0 +1,102 @@
+.todo-app {
+  margin: 0 50px;
+  background-color: transparent;
+}
+
+h1 {
+  text-align: center;
+  color: #23272b;
+}
+
+h4 {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #23272b;
+}
+
+.todo-form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.todo-form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1.9px solid #eeefee;
+  padding-left: 15px;
+}
+
+.todo-form input:focus {
+  outline: none;
+  border-color: gray;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0a58c7;
+}
+
+button:active {
+  background-color: #0a48ad;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1.9px solid #eeefee;
+  padding: 10px;
+  border-radius: 5px;
+  height: 64px;
+  padding-left: 15px;
+}
+
+.todo-list li span.done {
+  text-decoration: line-through;
+}
+
+.todo-list li .actions {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.todo-list li .actions span {
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  border: 1.8px solid;
+  border-radius: 5px;
+  min-width: 25px;
+  text-align: center;
+}
+
+.todo-list li .actions span:hover {
+  box-shadow: 0px 0px 1px 3px;
+}
+
+.todo-list li .actions .tick {
+  color: #8cc5ab;
+}
+
+.todo-list li .actions .delete {
+  color: #f3a6ad;
+}
